@@ -1,2 +1,2 @@
 #!/bin/bash
-find . mindepth 11 -type d | wc -11
+find . -tupe d ! -path . -print | wc -l 
